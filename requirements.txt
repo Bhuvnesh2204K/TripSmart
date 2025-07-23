@@ -1,0 +1,44 @@
+# Core libraries
+streamlit>=1.35.0
+python-dotenv>=1.0.1
+litellm>=1.30.9
+
+# CrewAI and dependencies
+crewai>=0.28.13
+crewai-tools>=0.1.20
+
+# Async support (if needed later)
+anyio>=4.0.0
+
+# HuggingFace Hub for model access
+huggingface-hub>=0.22.2
+
+# Additional dependencies for better compatibility and Pydantic V2+
+pydantic>=2.0.0
+pydantic-core>=2.0.0
+typing-extensions>=4.5.0
+
+# For better error handling and logging
+colorlog>=6.7.0
+tenacity>=8.2.0
+
+# JSON handling and data processing
+jsonschema>=4.17.0
+pandas>=2.0.0 # Often pulled as a dependency by other packages
+
+# HTTP requests and API handling
+requests>=2.31.0
+httpx>=0.24.0
+
+# Optional: For local model inference (if you want to use transformers directly)
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Optional: Alternative API providers (uncomment if needed)
+# groq>=0.4.1
+# openai>=1.10.0
+# anthropic>=0.18.0
+
+# Development and debugging tools (optional)
+rich>=13.0.0
+click>=8.1.0
