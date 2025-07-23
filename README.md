@@ -27,6 +27,8 @@ cd ai-travel-agent
 pip install -r requirements_deploy.txt
 ```
 
+**Note**: This project uses compatible versions to avoid ChromaDB/Python 3.13 issues on cloud platforms.
+
 3. **Set up environment variables**
 Create a `.env.local` file with:
 ```
